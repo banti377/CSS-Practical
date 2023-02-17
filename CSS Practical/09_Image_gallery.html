@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            height: 200px;
+            width: 250px;
+            border-radius: 10px;
+            border: 5px solid darkgreen;
+        }
+
+        .main {
+            background-color: rgb(182, 219, 231);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            gap: 10px;
+            width: 100%;
+            justify-items: center;
+        }
+
+        .sub1:hover {
+            transition: 1s all ease;
+            transform: scale(0.5, 0.5);
+        }
+
+        .sub2:hover {
+            transition: 1s all ease;
+            transform: skew(20deg, 25deg);
+        }
+
+        .sub3:hover {
+            transition: 1s all ease;
+            transform: translate(50px, 50px);
+        }
+
+        .sub4:hover {
+            transition: 1s all ease;
+            transform: matrix(1, 0.2, 0.5, 1, 0, 0);
+        }
+
+        .sub5:hover {
+            transition: 1s all ease;
+            transform: rotate(330deg);
+        }
+
+        .sub6:hover {
+            transition: 1s all ease;
+            transform: rotateX(180deg);
+        }
+
+        .sub7:hover {
+            transition: 1s all ease;
+            transform: scaleX(1.5);
+        }
+
+        .sub8:hover {
+            transition: 1s all ease;
+            transform: skewY(60deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub1">
+            <img class="img1" src="Images/IG 1.jpg" alt="">
+        </div>
+        <div class="sub2">
+            <img src="Images/IG 2.jpeg" alt="">
+        </div>
+        <div class="sub3">
+            <img src="Images/IG 3.jpeg" alt="">
+        </div>
+        <div class="sub4">
+            <img src="Images/IG 4.jpeg" alt="">
+        </div>
+        <div class="sub5">
+            <img src="Images/IG 5.jpeg" alt="">
+        </div>
+        <div class="sub6">
+            <img src="Images/IG 6.jpeg" alt="">
+        </div>
+        <div class="sub7">
+            <img src="Images/IG 7.jpg" alt="">
+        </div>
+        <div class="sub8">
+            <img src="Images/IG 8.jpeg" alt="">
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
